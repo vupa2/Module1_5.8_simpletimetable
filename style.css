@@ -1,0 +1,80 @@
+table {
+  border-collapse: collapse;
+}
+
+#bai1, #bai2 {
+  margin: 15px auto;
+  /* border: 1px solid black; */
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  margin: auto auto 10px auto;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+/* Bai 1 */
+#bai1 td, th {
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+#bai1 th {
+  background-color: #FEFB00;
+}
+
+/* Bai 2 */
+#bai2 h2 {
+  color: #0433FF;
+  text-transform: uppercase;
+}
+
+#bai2 .info td {
+  border: none;
+  color: #0433FF;
+  width: 400px;
+  height: 20px;
+}
+
+#bai2 .info td:nth-child(1) {
+  text-align: left;
+}
+
+#bai2 .info td:nth-child(2) {
+  text-align: right;
+}
+
+#bai2 .table-main thead tr:first-child th:first-child {
+  background-color: #f3f3f3;
+}
+
+#bai2 .table-main thead tr:first-child th {
+  background-color: #FEFB00;
+}
+
+#bai2 .table-main thead tr {
+  background-color: #FFB300;
+}
+
+#bai2 .table-main thead th:first-child, #bai2 .table-main tbody td:first-child {
+  text-align: center;
+  width: 30px;
+}
+
+#bai2 .table-main td, #bai2 .table-main th {
+  border: 1px solid black;
+  width: 150px;
+  height: 20px;
+  margin: 0 0 15px 0;
+  padding: 5px;
+}
+
