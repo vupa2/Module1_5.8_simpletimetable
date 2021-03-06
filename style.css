@@ -9,6 +9,9 @@ table {
 
 caption {
   text-align: center;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 table {
@@ -54,7 +57,7 @@ td, th {
 }
 
 #bai2 .table-main thead tr:first-child th:first-child {
-  background-color: #f3f3f3;
+  background-color: #FFFFFF;
 }
 
 #bai2 .table-main thead tr:first-child th {
@@ -77,4 +80,3 @@ td, th {
   margin: 0 0 15px 0;
   padding: 5px;
 }
-
