@@ -7,7 +7,7 @@ table {
   /* border: 1px solid black; */
 }
 
-h2 {
+caption {
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ td, th {
 }
 
 /* Bai 2 */
-#bai2 h2 {
+#bai2 caption {
   color: #0433FF;
   text-transform: uppercase;
 }
